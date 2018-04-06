@@ -41,10 +41,10 @@ and paste it in a folder dedicated for your node (e.g /etc/eosio/node_00)
 
 ### Launching a node on Community Testnet
 
-`nodeos` will need a properly configured config.ini file in order to work properly. You can download it from [here!] (https://github.com/eosgreen/EOS.IO-Community-Testnet-Reactivation).
+`nodeos` will need a properly configured config.ini file in order to work properly. You can download it from [here!](https://github.com/eosgreen/EOS.IO-Community-Testnet-Reactivation).
 
 - Create `data-dir` folder for you node, for example `/etc/eosio/node_00/data-dir`
-- Download files `config.ini` and `genesis.json` from git repository [here!] (https://github.com/eosgreen/EOS.IO-Community-Testnet-Reactivation)
+- Download files `config.ini` and `genesis.json` from git repository [here!](https://github.com/eosgreen/EOS.IO-Community-Testnet-Reactivation)
 - Edit path to `data-dir/genesis.json` file in coonfig.ini
 - Choose your producer name (in case you want to produce blocks) and create own EOS key pair (you can create key pair using cleos command `./cleos create key` or using key generator.
 - Add you producer name and your keys in your `config.ini`.
