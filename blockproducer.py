@@ -14,7 +14,7 @@ class BlockProducer:
 
 
     def genP2Pconf(self):
-        return "p2p-peer-address = " + str(self.node_addr) + ":".join([str(self.node_addr),str(self.port_p2p)])
+        return "p2p-peer-address = " + ":".join([str(self.node_addr),str(self.port_p2p)])
 
     def getBPjson(self):
         bpdata =   {
@@ -48,7 +48,7 @@ with open("config.ini",'w') as f:
         bp = BlockProducer()
         bp.setProducerParameters(producerParameter)
         
-        bp.genP2Pconf()
+        print(bp.genP2Pconf())
         f.write(bp.genP2Pconf())
         f.write("\n")
 f.close()
