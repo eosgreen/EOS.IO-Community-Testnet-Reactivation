@@ -53,7 +53,7 @@ blockProducerList = [
   {
     "account_name": "hellboy",
     "organisation": "EOS Detroit",
-    "location": "US,Seattle",
+    "location": "USA,Seattle",
     "node_addr": "ctestnet.eosdetroit.com",
     "port_http": "8889",
     "port_ssl": "",
@@ -80,5 +80,24 @@ blockProducerList = [
     "port_p2p": "9876",
     "block_signing_key": "EOS6p2RxAzMD8QuVEr75bnvJk3XDrZVYUkyEiuTSj3Qhyp2vWmfFD"
   },
-
+  {
+    "account_name": "spiderman",
+    "organisation": "SaltBlock",
+    "location": "USA,UT,Salt Lake City",
+    "node_addr": "166.70.202.194",
+    "port_http": "8080",
+    "port_ssl": "",
+    "port_p2p": "9877",
+    "block_signing_key": "EOS8dzxm4HAk8uRJawAWzAJZ6nj4uBCx3bbjBFxzzskHpQhSRELe7"
+  },
+  {
+    "account_name": "jigsaw",
+    "organisation": "SaltBlock",
+    "location": "USA,UT,Salt Lake City",
+    "node_addr": "18.188.52.250 ",
+    "port_http": "8899",
+    "port_ssl": "",
+    "port_p2p": "9889",
+    "block_signing_key": "EOS8dzxm4HAk8uRJawAWzAJZ6nj4uBCx3bbjBFxzzskHpQhSRELe7"
+  }
 ]
