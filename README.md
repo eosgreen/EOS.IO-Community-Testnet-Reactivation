@@ -5,9 +5,9 @@
 #### Run by:
 [EOSIO.SE!](http://eosio.se) 
 
-[EOS42.IO!](https://eos42.io)
-
 [EOSGREEN.IO!](https://eosgreen.io)
+
+[EOS42.IO!](https://eos42.io)
 
 [EOSDAC.IO!](https://eosdac.io)
 
@@ -23,7 +23,7 @@ Clone the eos repository and run the build script.
 
     git clone https://github.com/eosio/eos --recursive
     cd eos
-    git checkout DAWN-2018-03-30-ALPHA
+    git checkout tags/dawn-v3.0.0
     git submodule update --recursive
     ./eosio_build.sh
     cd build
@@ -41,10 +41,10 @@ and paste it in a folder dedicated for your node (e.g /etc/eosio/node_00)
 
 ### Launching a node on Community Testnet
 
-`nodeos` will need a properly configured config.ini file in order to work properly. You can download it from [here!](https://github.com/eosgreen/EOS.IO-Community-Testnet-Reactivation).
+`nodeos` will need a properly configured config.ini file in order to work properly. You can download it from [here!] (https://github.com/eosgreen/EOS.IO-Community-Testnet-Reactivation).
 
 - Create `data-dir` folder for you node, for example `/etc/eosio/node_00/data-dir`
-- Download files `config.ini` and `genesis.json` from git repository [here!](https://github.com/eosgreen/EOS.IO-Community-Testnet-Reactivation)
+- Download files `config.ini` and `genesis.json` from git repository [here!] (https://github.com/eosgreen/EOS.IO-Community-Testnet-Reactivation)
 - Edit path to `data-dir/genesis.json` file in coonfig.ini
 - Choose your producer name (in case you want to produce blocks) and create own EOS key pair (you can create key pair using cleos command `./cleos create key` or using key generator.
 - Add you producer name and your keys in your `config.ini`.
