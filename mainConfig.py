@@ -92,12 +92,12 @@ blockProducerList = [
   },
   {
     "account_name": "jigsaw",
-    "organisation": "SaltBlock",
-    "location": "USA,UT,Salt Lake City",
-    "node_addr": "18.188.52.250 ",
+    "organisation": "Blockpro",
+    "location": "USA Ohio",
+    "node_addr": "18.188.52.250",
     "port_http": "8899",
     "port_ssl": "",
     "port_p2p": "9889",
-    "block_signing_key": "EOS8dzxm4HAk8uRJawAWzAJZ6nj4uBCx3bbjBFxzzskHpQhSRELe7"
+    "block_signing_key": "EOS5AJLcPVhq9zgHvTKgdWd76R943cuUUybpYt7JdrT5BV4T9je12"
   }
 ]
