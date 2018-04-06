@@ -93,11 +93,21 @@ blockProducerList = [
   {
     "account_name": "jigsaw",
     "organisation": "Blockpro",
-    "location": "USA Ohio",
+    "location": "USA, Ohio",
     "node_addr": "18.188.52.250",
     "port_http": "8899",
     "port_ssl": "",
     "port_p2p": "9889",
     "block_signing_key": "EOS5AJLcPVhq9zgHvTKgdWd76R943cuUUybpYt7JdrT5BV4T9je12"
+  },
+  {
+    "account_name": "ironman",
+    "organisation": "EOS New York",
+    "location": "USA,Virgina",
+    "node_addr": "ctest.eosnewyork",
+    "port_http": "8887",
+    "port_ssl": "",
+    "port_p2p": "9870",
+    "block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
   }
 ]
