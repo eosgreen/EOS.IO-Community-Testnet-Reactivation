@@ -104,10 +104,31 @@ blockProducerList = [
     "account_name": "ironman",
     "organisation": "EOS New York",
     "location": "USA,Virgina",
-    "node_addr": "ctest.eosnewyork",
+    "node_addr": "ctest.eosnewyork.io",
     "port_http": "8887",
     "port_ssl": "",
     "port_p2p": "9870",
     "block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+  },
+  {
+    "account_name": "hook",
+    "organisation": "EOS Denmark",
+    "location": "Belgium",
+    "node_addr": "35.195.161.56",
+    "port_http": "8888",
+    "port_ssl": "",
+    "port_p2p": "9876",
+    "block_signing_key": "EOS8b7CU2eJG9Z4aVkx6guoJJouKcSqt4LLVJR32rpZZw1GeyhJvd"
+  },
+  {
+    "account_name": "robin",
+    "organisation": "OracleChain",
+    "location": "Singapore",
+    "node_addr": "159.89.197.162",
+    "port_http": "8889",
+    "port_ssl": "",
+    "port_p2p": "9877",
+    "block_signing_key": "EOS7jtFqvghBxvs6EvaQyWWf9vxdmWtTetACiy8PXqxtxXGrHfGVr"
   }
+
 ]
