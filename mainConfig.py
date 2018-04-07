@@ -129,6 +129,16 @@ blockProducerList = [
     "port_ssl": "",
     "port_p2p": "9877",
     "block_signing_key": "EOS7jtFqvghBxvs6EvaQyWWf9vxdmWtTetACiy8PXqxtxXGrHfGVr"
+  },
+  {
+    "account_name": "rogue",
+    "organisation": "Tokenika",
+    "location": "Poland",
+    "node_addr": "dawn3-seed.tokenika.io",
+    "port_http": "8888",
+    "port_ssl": "",
+    "port_p2p": "9876",
+    "block_signing_key": "EOS711cqTKFYXXk5nGPgySUy6U34CNBhCcCwaD2PwZ14GJXu1Anwt"
   }
 
 ]
