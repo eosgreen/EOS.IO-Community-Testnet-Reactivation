@@ -71,3 +71,4 @@ jigsaw|18.188.52.250|8899|9889|USA, Ohio|Blockpro
 ironman|ctest.eosnewyork.io|8887|9870|USA,Virgina|EOS New York
 hook|35.195.161.56|8888|9876|Belgium|EOS Denmark
 robin|159.89.197.162|8889|9877|Singapore|OracleChain
+firestorm|149.202.201.27:9876|8889|9876|France|eosDAC
