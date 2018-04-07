@@ -54,3 +54,20 @@ and paste it in a folder dedicated for your node (e.g /etc/eosio/node_00)
 
 
 Congratulations - you are up and running as BP on Superhero Testnet!
+
+# List of connected BP Nodes:
+| BP Account Name | Address | Port (http) | Port (p2p) | Location | Organisation |
+|-----------------|---------|-------------|------------|----------|--------------|
+juggernaut|eosgreen.uk.to|8889|9875|UK|EOSgreen.io
+storm|ctestnet.eosio.se|8887|9875|Vasteras, Sweden|EOSIO.se
+batman|54.194.49.21|8833|9875|Ireland|eosDAC.io
+venom|venom.eoscalgary.com|80|9877|Canada, Calgary|EOS Cafe
+joker|joker.superhero.eos.roelandp.nl|8763|9873|Amsterdam and Germany|RoelandP.nl/eos
+hellboy|ctestnet.eosdetroit.com|8889|1339|USA,Seattle|EOS Detroit
+cyclops|bp7-d3.eos42.io|8888|9876|UK,London|EOS42
+wakanda|superheroes.eosio.africa|8888|9876|South Africa,Johannesburg|EOS Africa
+spiderman|166.70.202.194|8080|9877|USA,UT,Salt Lake City|SaltBlock
+jigsaw|18.188.52.250|8899|9889|USA, Ohio|Blockpro
+ironman|ctest.eosnewyork.io|8887|9870|USA,Virgina|EOS New York
+hook|35.195.161.56|8888|9876|Belgium|EOS Denmark
+robin|159.89.197.162|8889|9877|Singapore|OracleChain
