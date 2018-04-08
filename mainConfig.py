@@ -139,6 +139,36 @@ blockProducerList = [
     "port_ssl": "",
     "port_p2p": "9876",
     "block_signing_key": "EOS711cqTKFYXXk5nGPgySUy6U34CNBhCcCwaD2PwZ14GJXu1Anwt"
+  },
+  {
+    "account_name": "daredevil",
+    "organisation": "Blockgenic",
+    "location": "USA, West Coast",
+    "node_addr": "bp.blockgenic.io",
+    "port_http": "8888",
+    "port_ssl": "",
+    "port_p2p": "9876",
+    "block_signing_key": "EOS7ggmHeJpysDVBHahjHr3Rq46eGxJx9wtbTsmPEvJcGSfMic1uf"
+  },
+  {
+    "account_name": "magneto",
+    "organisation": "EOS Gravity",
+    "location": "China",
+    "node_addr": "47.52.18.70",
+    "port_http": "9000",
+    "port_ssl": "",
+    "port_p2p": "9876",
+    "block_signing_key": "EOS5D5P25LN3pkMsvRJ1a8vYh9CFd2u4MHLSmfcYnugvTEcN38vPm"
+  },
+  {
+    "account_name": "doom",
+    "organisation": "91EOS",
+    "location": "China",
+    "node_addr": "120.27.130.60",
+    "port_http": "8888",
+    "port_ssl": "",
+    "port_p2p": "9876",
+    "block_signing_key": "EOS8NnpE3hVrBdE6JhaMQdxSYAdZqR9qRyg5o3XrEDhCeB6mwBtYr"
   }
 
 ]
