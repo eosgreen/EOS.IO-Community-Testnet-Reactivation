@@ -169,6 +169,26 @@ blockProducerList = [
     "port_ssl": "",
     "port_p2p": "9876",
     "block_signing_key": "EOS8NnpE3hVrBdE6JhaMQdxSYAdZqR9qRyg5o3XrEDhCeB6mwBtYr"
+  },
+  {
+    "account_name": "megatron",
+    "organisation": "koreos_io",
+    "location": "South Korea",
+    "node_addr": "ctest.koreos.io",
+    "port_http": "8888",
+    "port_ssl": "",
+    "port_p2p": "9876",
+    "block_signing_key": "EOS81LJmHkomMihCyrZ3W5btVqNkiLg7zvYEdKF516UNwBCN2eAN4"
+  },
+  {
+    "account_name": "superman",
+    "organisation": "OCI",
+    "location": "USA,St. Louis",
+    "node_addr": "ctestnet.objectcomputing.com",
+    "port_http": "8888",
+    "port_ssl": "",
+    "port_p2p": "9876",
+    "block_signing_key": "EOS8kJXy2zWbyrmKA8DXg7ubQMjpuDUQKjdpc39SmbeKqjkCi8SXa"
   }
 
 ]
