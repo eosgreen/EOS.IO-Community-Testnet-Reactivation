@@ -71,3 +71,12 @@ jigsaw|18.188.52.250|8899|9889|USA, Ohio|Blockpro
 ironman|ctest.eosnewyork.io|8887|9870|USA,Virgina|EOS New York
 hook|35.195.161.56|8888|9876|Belgium|EOS Denmark
 robin|159.89.197.162|8889|9877|Singapore|OracleChain
+rogue|dawn3-seed.tokenika.io|8888|9876|Poland|Tokenika
+daredevil|bp.blockgenic.io|8888|9876|USA, West Coast|Blockgenic
+magneto|47.52.18.70|9000|9876|China|EOS Gravity
+doom|120.27.130.60|8888|9876|China|91EOS
+megatron|ctest.koreos.io|8888|9876|South Korea|koreos_io
+superman|ctestnet.objectcomputing.com|8888|9876|USA,St. Louis|OCI
+hulk|superhero-bp1.eosphere.io|8888|9876|Australia,Perth|EOSphere
+beast|test.eosys.io|8887|9875|Korea,Seoul|EOSYS
+stealth|stealthbp.ddns.net|8888|9876|Korea,Seoul|Stealth
