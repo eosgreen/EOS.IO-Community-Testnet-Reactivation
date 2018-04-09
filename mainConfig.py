@@ -219,6 +219,16 @@ blockProducerList = [
     "port_ssl": "",
     "port_p2p": "9876",
     "block_signing_key": "EOS8RszJfhBhg61PC1Bg7ZK64L9HNMhxi7fqnBoDbBtUaUYSvSJac"
+  },
+  {
+    "account_name": "deadpool",
+    "organisation": "helloEOS",
+    "location": "China",
+    "node_addr": "138.68.15.85",
+    "port_http": "8888",
+    "port_ssl": "",
+    "port_p2p": "9876",
+    "block_signing_key": "EOS6dKq4GcMzQD2rjBAaaTzehtyGmgEVHXV5Bqa4s4VSq7oamkQBa"
   }
 
 ]
