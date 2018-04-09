@@ -46,58 +46,72 @@ class BlockProducer:
     def getInfo(self):
         get_info = r'http://' + self.node_addr + ':' + self.port_http + '/'.join(['/v1','chain','get_info'])
         r = requests.get(get_info)
-        return r.json()
+        if r.ok:
+            return r.json()
+        else:
+            return None
 
 class eosNet():
     def __init__(self,producers):
         self.producers = producers
 
+def bP2PFile(fileName,producersParametersList):
+    
+    with open(fileName,'w') as f:
+        for producerParameter in producersParametersList:
+            bp = BlockProducer()
+            bp.setProducerParameters(producerParameter)
+            
+            #print(bp.genP2Pconf())
+            f.write(bp.genP2Pconf())
+            f.write("\n")
+    f.close()
 
-producersParametersList = mainConfig.blockProducerList
-p2pList = ""
-with open("testnet_p2p.ini",'w') as f:
-    for producerParameter in producersParametersList:
-        bp = BlockProducer()
-        bp.setProducerParameters(producerParameter)
-        
-        #print(bp.genP2Pconf())
-        f.write(bp.genP2Pconf())
-        f.write("\n")
-f.close()
+def bHttpFile(fileName,producersParametersList):
+    producersParametersList = mainConfig.blockProducerList
+    with open(fileName,'w') as f:
+        for producerParameter in producersParametersList:
+            bp = BlockProducer()
+            bp.setProducerParameters(producerParameter)
+            
+            #print(bp.genAddHttpconf())
+            f.write(bp.genAddHttpconf())
+            f.write("\n")
+    f.close()
+
+def bGetInfoFile(fileName,producersParametersList):
+    producersParametersList = mainConfig.blockProducerList
+    with open(fileName,'w') as f:
+        for producerParameter in producersParametersList:
+            bp = BlockProducer()
+            bp.setProducerParameters(producerParameter)
+            
+            #print(bp.getInfo())
+            json.dump(bp.getInfo(), f, ensure_ascii=False)
+            f.write("\n")
+    f.close()
 
 
-producersParametersList = mainConfig.blockProducerList
-p2pList = ""
-with open("testnet_http.ini",'w') as f:
-    for producerParameter in producersParametersList:
-        bp = BlockProducer()
-        bp.setProducerParameters(producerParameter)
-        
-        #print(bp.genAddHttpconf())
-        f.write(bp.genAddHttpconf())
-        f.write("\n")
-f.close()
+def bBPInfoFile(fileName,producersParametersList):
+    producersParametersList = mainConfig.blockProducerList
+    with open(fileName,'w') as f:
+        for producerParameter in producersParametersList:
+            bp = BlockProducer()
+            bp.setProducerParameters(producerParameter)
+            
+            #print(bp.getInfo())
+            f.write(bp.genBPinfo())
+            f.write("\n")
+    f.close()
 
-producersParametersList = mainConfig.blockProducerList
-p2pList = ""
-with open("testnet_getinfo.ini",'w') as f:
-    for producerParameter in producersParametersList:
-        bp = BlockProducer()
-        bp.setProducerParameters(producerParameter)
-        
-        #print(bp.getInfo())
-        json.dump(bp.getInfo(), f, ensure_ascii=False)
-        f.write("\n")
-f.close()
+if __name__ == '__main__': 
+    prParList = mainConfig.blockProducerList
 
-producersParametersList = mainConfig.blockProducerList
-p2pList = ""
-with open("testnet_bpinfo.ini",'w') as f:
-    for producerParameter in producersParametersList:
-        bp = BlockProducer()
-        bp.setProducerParameters(producerParameter)
-        
-        #print(bp.getInfo())
-        f.write(bp.genBPinfo())
-        f.write("\n")
-f.close()
+    fp2p = "testnet_p2p.ini"
+    bP2PFile(fp2p,prParList)
+    fhttp = "testnet_http.ini"
+    bHttpFile(fhttp,prParList)
+    fgetinfo = "testnet_getinfo.ini"
+    bGetInfoFile(fgetinfo,prParList)
+    fbpinfo = "testnet_bpinfo.ini"
+    bBPInfoFile(fbpinfo,prParList)
