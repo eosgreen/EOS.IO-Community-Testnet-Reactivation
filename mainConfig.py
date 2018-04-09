@@ -189,6 +189,36 @@ blockProducerList = [
     "port_ssl": "",
     "port_p2p": "9876",
     "block_signing_key": "EOS8kJXy2zWbyrmKA8DXg7ubQMjpuDUQKjdpc39SmbeKqjkCi8SXa"
+  },
+  {
+    "account_name": "hulk",
+    "organisation": "EOSphere",
+    "location": "Australia,Perth",
+    "node_addr": "superhero-bp1.eosphere.io",
+    "port_http": "8888",
+    "port_ssl": "",
+    "port_p2p": "9876",
+    "block_signing_key": "EOS8Zj999MDCzMo1gDuyieFCMMsHKyfPxUB4towsmbjXXQShsFA5a"
+  },
+  {
+    "account_name": "beast",
+    "organisation": "EOSYS",
+    "location": "Korea,Seoul",
+    "node_addr": "test.eosys.io",
+    "port_http": "8887",
+    "port_ssl": "",
+    "port_p2p": "9875",
+    "block_signing_key": "EOS4yQ8XcxcGY7ixCsMJB9JmFyrdJGPv3kneo53mB5uK6eNmVnw46"
+  },
+  {
+    "account_name": "beast",
+    "organisation": "Stealth",
+    "location": "Korea,Seoul",
+    "node_addr": "stealthbp.ddns.net",
+    "port_http": "8888",
+    "port_ssl": "",
+    "port_p2p": "9876",
+    "block_signing_key": "EOS8RszJfhBhg61PC1Bg7ZK64L9HNMhxi7fqnBoDbBtUaUYSvSJac"
   }
 
 ]

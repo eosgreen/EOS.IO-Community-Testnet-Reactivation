@@ -15,7 +15,7 @@ class BlockProducer:
 
     def setProducerParameters(self,confDic):
         for key in confDic:
-            if self.__dict__.has_key(key):
+            if key in self.__dict__:
                 self.__dict__[key] = confDic[key]
 
     def genP2Pconf(self):
@@ -54,6 +54,8 @@ class BlockProducer:
 class eosNet():
     def __init__(self,producers):
         self.producers = producers
+
+
 
 def bP2PFile(fileName,producersParametersList):
     
@@ -111,7 +113,7 @@ if __name__ == '__main__':
     bP2PFile(fp2p,prParList)
     fhttp = "testnet_http.ini"
     bHttpFile(fhttp,prParList)
-    fgetinfo = "testnet_getinfo.ini"
-    bGetInfoFile(fgetinfo,prParList)
+    #fgetinfo = "testnet_getinfo.ini"
+    #bGetInfoFile(fgetinfo,prParList)
     fbpinfo = "testnet_bpinfo.ini"
     bBPInfoFile(fbpinfo,prParList)
