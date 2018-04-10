@@ -28,11 +28,11 @@ Clone the eos repository and run the build script.
     ./eosio_build.sh
     cd build
     sudo make install
-    
+
 Now you can copy binary files (mainly nodeos,cleos,keosd) located in:
 
     /usr/local/bin
-    
+
 or in local build folders:
 
     build/programs/
@@ -80,3 +80,4 @@ superman|ctestnet.objectcomputing.com|8888|9876|USA,St. Louis|OCI
 hulk|superhero-bp1.eosphere.io|8888|9876|Australia,Perth|EOSphere
 beast|test.eosys.io|8887|9875|Korea,Seoul|EOSYS
 stealth|stealthbp.ddns.net|8888|9876|Korea,Seoul|Stealth
+aquaman|ctestnet.eoshenzhen.io|8888|9876|China, Shenzhen|EOShenzhen
