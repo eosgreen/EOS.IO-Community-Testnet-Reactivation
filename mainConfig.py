@@ -229,6 +229,17 @@ blockProducerList = [
     "port_ssl": "",
     "port_p2p": "9876",
     "block_signing_key": "EOS6dKq4GcMzQD2rjBAaaTzehtyGmgEVHXV5Bqa4s4VSq7oamkQBa"
+  },
+  {
+    "account_name": "rita",
+    "organisation": "EOSGeek",
+    "location": "Singapore",
+    "node_addr": "47.88.222.80",
+    "port_http": "8888",
+    "port_ssl": "",
+    "port_p2p": "9876",
+    "block_signing_key": "EOS6abC4L9KHzeHMvNuoEBseJnqbFxPjdt9628vfr4gK465tnQPBJ"
   }
+
 
 ]
