@@ -80,3 +80,7 @@ superman|ctestnet.objectcomputing.com|8888|9876|USA,St. Louis|OCI
 hulk|superhero-bp1.eosphere.io|8888|9876|Australia,Perth|EOSphere
 beast|test.eosys.io|8887|9875|Korea,Seoul|EOSYS
 stealth|stealthbp.ddns.net|8888|9876|Korea,Seoul|Stealth
+mystique|138.68.15.85|8888|9876|China|helloEOS
+rita|47.88.222.80|8888|9876|Singapore|EOSGeek
+riddler|54.233.222.22|8887|9875|Brazil,Rio de Janeiro|EOS Rio
+ursula|39.108.231.157|8899|9877|China|SuperONE.io
