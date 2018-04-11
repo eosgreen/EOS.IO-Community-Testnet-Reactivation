@@ -211,7 +211,7 @@ blockProducerList = [
     "block_signing_key": "EOS4yQ8XcxcGY7ixCsMJB9JmFyrdJGPv3kneo53mB5uK6eNmVnw46"
   },
   {
-    "account_name": "beast",
+    "bp_name": "stealth",
     "organisation": "Stealth",
     "location": "Korea,Seoul",
     "node_addr": "stealthbp.ddns.net",
@@ -221,17 +221,17 @@ blockProducerList = [
     "block_signing_key": "EOS8RszJfhBhg61PC1Bg7ZK64L9HNMhxi7fqnBoDbBtUaUYSvSJac"
   },
   {
-    "account_name": "deadpool",
+    "bp_name": "mystique",
     "organisation": "helloEOS",
     "location": "China",
     "node_addr": "138.68.15.85",
     "port_http": "8888",
     "port_ssl": "",
     "port_p2p": "9876",
-    "block_signing_key": "EOS6dKq4GcMzQD2rjBAaaTzehtyGmgEVHXV5Bqa4s4VSq7oamkQBa"
+    "block_signing_key": "EOS85oHiiwVpmGKL5LBxLYm8xgFSCxMFBGDdJgYjt7yFkEUtwbopf"
   },
   {
-    "account_name": "rita",
+    "bp_name": "rita",
     "organisation": "EOSGeek",
     "location": "Singapore",
     "node_addr": "47.88.222.80",
@@ -249,7 +249,25 @@ blockProducerList = [
     "port_ssl": "",
     "port_p2p": "9876",
     "block_signing_key": "EOS64Vgd3PVJfoTvB19K8fShiy9e1ZGo1iN33PgLrJfUDeTXSmSuG"
+  },
+    "bp_name": "riddler",
+    "organisation": "EOS Rio",
+    "location": "Brazil,Rio de Janeiro",
+    "node_addr": "54.233.222.22",
+    "port_http": "8887",
+    "port_ssl": "",
+    "port_p2p": "9875",
+    "block_signing_key": "EOS67vheXu9HAuqGK5YvYVXmcY83Ac5972GpZmE4WS9FmJAWSjvZG"
+  },
+  {
+    "bp_name": "ursula",
+    "organisation": "SuperONE.io",
+    "location": "China",
+    "node_addr": "39.108.231.157",
+    "port_http": "8899",
+    "port_ssl": "",
+    "port_p2p": "9877",
+    "block_signing_key": "EOS6hxModmy1ohpVhQ578xcvCZW78Xb8RK6P5iCwMzNzUuXCA86Y1"
   }
-
 
 ]
