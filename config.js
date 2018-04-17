@@ -230,9 +230,9 @@ var blockProducerList = [
   },
   {
     "bp_name": "stealth",
-    "organisation": "Stealth",
+    "organisation": "EOS Asia",
     "location": "Korea,Seoul",
-    "node_addr": "stealthbp.ddns.net",
+    "node_addr": "bp-test.eosasia.one",
     "port_http": "8888",
     "port_ssl": "",
     "port_p2p": "9876",
