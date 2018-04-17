@@ -357,6 +357,16 @@ var blockProducerList = [
     "port_ssl": "",
     "port_p2p": "9876",
     "block_signing_key": "EOS6NwJ63CcMKdG4qwa4Nc3qoW2PmartGbizCGrG9tTWyQVfWwKUG"
+  },
+  {
+    "bp_name": "wonderwoman",
+    "organisation": "EOSREAL",
+    "location": "India,Mumbai-AWS",
+    "node_addr": "wonderwoman.eosreal.io",
+    "port_http": "8888",
+    "port_ssl": "",
+    "port_p2p": "9876",
+    "block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
   }
 
 
