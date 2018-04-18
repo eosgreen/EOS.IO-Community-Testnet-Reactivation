@@ -241,6 +241,15 @@ blockProducerList = [
     "block_signing_key": "EOS6abC4L9KHzeHMvNuoEBseJnqbFxPjdt9628vfr4gK465tnQPBJ"
   },
   {
+    "account_name": "aquaman",
+    "organisation": "EOShenzhen",
+    "location": "Shenzhen China",
+    "node_addr": "ctestnet.eoshenzhen.io",
+    "port_http": "8888",
+    "port_ssl": "",
+    "port_p2p": "9876",
+    "block_signing_key": "EOS64Vgd3PVJfoTvB19K8fShiy9e1ZGo1iN33PgLrJfUDeTXSmSuG"
+  },
     "bp_name": "riddler",
     "organisation": "EOS Rio",
     "location": "Brazil,Rio de Janeiro",
