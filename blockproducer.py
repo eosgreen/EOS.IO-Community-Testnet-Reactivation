@@ -11,7 +11,7 @@ class BlockProducer:
         self.port_ssl=kwargs.get('port_ssl')
         self.block_signing_key=kwargs.get('block_signing_key')
         self.organisation=kwargs.get('organisation')
-        self.account_name=kwargs.get('account_name')
+        self.bp_name=kwargs.get('bp_name')
         self.location=kwargs.get('location')
 
     def setProducerParameters(self,confDic):
@@ -26,12 +26,12 @@ class BlockProducer:
         return ":".join([str(self.node_addr),str(self.port_http)])
 
     def genBPinfo(self):
-        return "|".join([str(self.account_name),str(self.node_addr),str(self.port_http),str(self.port_p2p),str(self.location),str(self.organisation)])
+        return "|".join([str(self.bp_name),str(self.node_addr),str(self.port_http),str(self.port_p2p),str(self.location),str(self.organisation)])
 
 
     def getBPjson(self):
         bpdata =   {
-                "account_name": str(self.account_name),
+                "bp_name": str(self.bp_name),
                 "organisation": str(self.organisation),
                 "location": str(self.location),
                 "node_addr": str(self.node_addr),
