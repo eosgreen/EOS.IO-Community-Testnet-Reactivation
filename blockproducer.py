@@ -1,6 +1,7 @@
 import mainConfig
 import json
 import requests
+from mapper import Mapper
 
 class BlockProducer:
     def __init__(self, **kwargs):
@@ -45,17 +46,17 @@ class BlockProducer:
     
     def getInfo(self):
         get_info = r'http://' + self.node_addr + ':' + self.port_http + '/'.join(['/v1','chain','get_info'])
-        r = requests.get(get_info)
-        if r.ok:
-            return r.json()
-        else:
+        try:
+            r = requests.get(get_info)
+        except requests.exceptions.ConnectionError:
             return None
+
+        return r.json()
+
 
 class eosNet():
     def __init__(self,producers):
         self.producers = producers
-
-
 
 def bP2PFile(fileName,producersParametersList):
     
@@ -70,7 +71,7 @@ def bP2PFile(fileName,producersParametersList):
     f.close()
 
 def bHttpFile(fileName,producersParametersList):
-    producersParametersList = mainConfig.blockProducerList
+
     with open(fileName,'w') as f:
         for producerParameter in producersParametersList:
             bp = BlockProducer()
@@ -82,7 +83,7 @@ def bHttpFile(fileName,producersParametersList):
     f.close()
 
 def bGetInfoFile(fileName,producersParametersList):
-    producersParametersList = mainConfig.blockProducerList
+
     with open(fileName,'w') as f:
         for producerParameter in producersParametersList:
             bp = BlockProducer()
@@ -95,7 +96,7 @@ def bGetInfoFile(fileName,producersParametersList):
 
 
 def bBPInfoFile(fileName,producersParametersList):
-    producersParametersList = mainConfig.blockProducerList
+
     with open(fileName,'w') as f:
         for producerParameter in producersParametersList:
             bp = BlockProducer()
@@ -106,6 +107,40 @@ def bBPInfoFile(fileName,producersParametersList):
             f.write("\n")
     f.close()
 
+
+colors = ['blue',
+'red',
+'yellow',
+'black',
+'orange',
+'grey',
+'pink',
+'white',
+'purple',
+'green',
+'purple',]
+
+def bBPMap(producersParametersList):
+    node_addr =[]
+    org =[]
+    col = []
+    i=0
+    for producerParameter in producersParametersList:
+        bp = BlockProducer()
+        bp.setProducerParameters(producerParameter)
+
+        node_addr.append(bp.node_addr)
+        org.append(bp.organisation)
+        col.append(colors[i])
+        i+=1
+        if i==10:
+            i=0
+
+    testnetmap = Mapper(node_addr,org,col)
+
+    testnetmap.genNodesMap()
+
+
 if __name__ == '__main__': 
     prParList = mainConfig.blockProducerList
 
@@ -113,7 +148,9 @@ if __name__ == '__main__':
     bP2PFile(fp2p,prParList)
     fhttp = "testnet_http.ini"
     bHttpFile(fhttp,prParList)
-    #fgetinfo = "testnet_getinfo.ini"
+    fgetinfo = "testnet_getinfo.ini"
     #bGetInfoFile(fgetinfo,prParList)
     fbpinfo = "testnet_bpinfo.ini"
     bBPInfoFile(fbpinfo,prParList)
+
+    bBPMap(prParList)
