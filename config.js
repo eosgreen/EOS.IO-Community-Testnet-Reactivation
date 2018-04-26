@@ -377,8 +377,7 @@ var blockProducerList = [
     "port_ssl": "",
     "port_p2p": "9876",
     "block_signing_key": "EOS6NwJ63CcMKdG4qwa4Nc3qoW2PmartGbizCGrG9tTWyQVfWwKUG"
-  }
-
+  },
   {
     "bp_name": "orca",
     "organisation": "EOS Galaxy",
