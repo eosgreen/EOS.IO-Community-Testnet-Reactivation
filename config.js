@@ -379,6 +379,16 @@ var blockProducerList = [
     "block_signing_key": "EOS6NwJ63CcMKdG4qwa4Nc3qoW2PmartGbizCGrG9tTWyQVfWwKUG"
   }
 
+  {
+    "bp_name": "orca",
+    "organisation": "EOS Galaxy",
+    "location": "China",
+    "node_addr": "113.208.116.110",
+    "port_http": "8888",
+    "port_ssl": "",
+    "port_p2p": "9876",
+    "block_signing_key": "EOS5EmMynemBu8MuzyQKcFCM2pHgyaLfcvNi9aUzQxS2Xr1mr69cU"
+  }
 
 
 ]
