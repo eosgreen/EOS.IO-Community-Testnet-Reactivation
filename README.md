@@ -23,7 +23,7 @@ Clone the eos repository and run the build script.
 
     git clone https://github.com/eosio/eos --recursive
     cd eos
-    git checkout tags/dawn-v3.0.0
+    git checkout tags/DAWN-2018-04-27-ALPHA
     git submodule update --recursive
     ./eosio_build.sh
     cd build
