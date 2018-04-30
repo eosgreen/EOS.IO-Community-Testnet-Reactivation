@@ -21,10 +21,10 @@ var blockProducerList = [
     "bp_name": "storm",
     "organisation": "EOSIO.se",
     "location": "Vasteras, Sweden",
-    "node_addr": "ctestnet.eosio.se",
-    "port_http": "8887",
+    "node_addr": "ctestnet.edenx.io",
+    "port_http": "8888",
     "port_ssl": "",
-    "port_p2p": "9875",
+    "port_p2p": "62071",
     "block_signing_key": "EOS55xgWhiYohaHtFTxcPMorB9MzwBfe3JgUuQEujrurmHLHiXmna"
   },
   {
@@ -302,7 +302,7 @@ var blockProducerList = [
     "bp_name": "skeletor",
     "organisation": "EOSBIXIN",
     "location": "Thailand,Bangkok",
-    "node_addr": "128.1.39.27",
+    "node_addr": "bpt1.eosbixin.com",
     "port_http": "8888",
     "port_ssl": "",
     "port_p2p": "9876",
@@ -369,17 +369,25 @@ var blockProducerList = [
     "block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
   },
   {
-    "bp_name": "spaceghost",
-    "organisation": "Worbli",
-    "location": "USA,Ohio",
-    "node_addr": "superhero.worbli.io",
+    "bp_name": "phoenix",
+    "organisation": "EOSBrazil",
+    "location": "Brazil,Joinville",
+    "node_addr": "eosbrazil.com",
+    "port_http": "8891",
+    "port_ssl": "",
+    "port_p2p": "9878",
+    "block_signing_key": "EOS62ZdqFkz4yWhdF3vE2AzMLDSRgEqSfLm5NESkabGY6V4HQ8PkB"
+  },
+  {
+    "bp_name": "loki",
+    "organisation": "spear.fund",
+    "location": "Ohio,Dayton",
+    "node_addr": "35.202.41.160",
     "port_http": "8888",
     "port_ssl": "",
     "port_p2p": "9876",
-    "block_signing_key": "EOS6NwJ63CcMKdG4qwa4Nc3qoW2PmartGbizCGrG9tTWyQVfWwKUG"
+    "block_signing_key": "EOS8kPE11KY4jBHNEPUnhDfdGwmpZT68YjtjtdRcNnKJjN2b7R1KQ"
   }
-
-
 
 ]
 
