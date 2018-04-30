@@ -59,7 +59,7 @@ Congratulations - you are up and running as BP on Superhero Testnet!
 | BP Account Name | Address | Port (http) | Port (p2p) | Location | Organisation |
 |-----------------|---------|-------------|------------|----------|--------------|
 juggernaut|eosgreen.uk.to|8889|9875|UK|EOSgreen.io
-storm|ctestnet.eosio.se|8887|9875|Vasteras, Sweden|EOSIO.se
+storm|ctestnet.edenx.io|8888|62071|Vasteras, Sweden|EOSIO.se
 batman|54.194.49.21|8833|9875|Ireland|eosDAC.io
 tom|superhero.cryptolions.io|8897|9885|Ukraine|CryptoLions.Io
 venom|venom.eoscalgary.com|80|9877|Canada, Calgary|EOS Cafe
@@ -87,9 +87,12 @@ riddler|54.233.222.22|8887|9875|Brazil,Rio de Janeiro|EOS Rio
 ursula|39.108.231.157|8899|9877|China|SuperONE.io
 aquaman|ctestnet.eoshenzhen.io|8888|9876|China,ShenZhen|EOShenzhen
 elektra|eosbp.enjoyshare.net|8888|9876|China,ShenZhen|enjoyshare
-skeletor|128.1.39.27|8888|9876|Thailand,Bangkok|EOSBIXIN
+skeletor|bpt1.eosbixin.com|8888|9876|Thailand,Bangkok|EOSBIXIN
 gargamel|46.4.253.242|7615|7610|Spain|www.bitcoineos.fun
 hulk|superhero-bp1.eosphere.io|8888|9876|Australia,Perth|EOSphere
 xavier|138.68.238.129|8888|9875|USA, CA|EOSBR
 batgirl|178.49.174.48|8888|9876|Russia, Novosibirsk|EOS Novosibirsk
 spaceghost|superhero.worbli.io|8888|9876|USA, Ohio|Worbil
+wonderwoman|wonderwoman.eosreal.io|8888|9876|India,Mumbai-AWS|EOSREAL
+phoenix|eosbrazil.com|8891|9878|Brazil,Joinville|EOSBrazil
+loki|35.202.41.160|8888|9876|Ohio,Dayton|spear.fund
