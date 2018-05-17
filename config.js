@@ -1,6 +1,6 @@
 /**********************************************
 *
-* Ceosgreen.io
+* eosgreen.io
 * https://github.com/eosgreen/EOS.IO-Community-Testnet-Reactivation
 *
 ***********************************************/
